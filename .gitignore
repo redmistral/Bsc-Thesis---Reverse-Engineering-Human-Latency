@@ -28,6 +28,10 @@ env/
 *.npy
 *.npz
 
+# Data folder contents (keep placeholder)
+data/*
+!data/.gitkeep
+
 # IDE
 .vscode/
 .idea/
