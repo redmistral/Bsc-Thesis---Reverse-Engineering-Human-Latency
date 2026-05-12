@@ -1,0 +1,59 @@
+==========================================================================================
+PHASE 1 — DELAY MODULATION SUMMARY (per-subject aggregates)
+==========================================================================================
+
+Subjects with valid delay_b_med: 117
+Median (across subjects):
+  Delay A : median=231  IQR=204–260  n=118
+  Delay B : median=1443  IQR=1112–1762  n=117
+  Delay C : median=1707  IQR=1455–2016  n=117
+
+==========================================================================================
+STATISTICAL TESTS (sorted by raw p-value)
+==========================================================================================
+test          factor                               target                 n       stat      p_raw       p_bh  sig  direction
+----------------------------------------------------------------------------------------------------------------------------------
+Mann-Whitney  valence (pos vs neg, event-level)    delay_b_ms          1882  433491.500     0.0222     0.9768   ns  pos μ=1761 (n=1206) vs neg μ=1621 (n=676); Δ=+141 ms
+Spearman      VR experience                        delay_b_med           35      0.293     0.0879     0.9768   ns  ρ=+0.293
+Mann-Whitney  saliency (hi vs lo, event-level)     delay_c_ms          2107  555932.500     0.1166     0.9768   ns  hi μ=2053 (n=1256) vs lo μ=1976 (n=851); Δ=+77 ms
+Mann-Whitney  saliency (hi vs lo, event-level)     delay_a_ms          1586  290371.500     0.1310     0.9768   ns  hi μ=247 (n=938) vs lo μ=255 (n=648); Δ=-8 ms
+Mann-Whitney  valence (pos vs neg, per-subject)    delay_b_med          108   6460.500     0.1715     0.9768   ns  pos > neg by 62 ms
+Spearman      Memory score (event recall)          delay_b_med           35     -0.233     0.1776     0.9768   ns  ρ=-0.233
+Spearman      Presence: captivated                 delay_b_med           35      0.233     0.1778     0.9768   ns  ρ=+0.233
+Mann-Whitney  saliency (hi vs lo, event-level)     delay_b_ms          1882  441082.000     0.2385     0.9768   ns  hi μ=1742 (n=1116) vs lo μ=1665 (n=766); Δ=+77 ms
+Spearman      Conscientiousness                    delay_b_med           35      0.198     0.2550     0.9768   ns  ρ=+0.198
+Mann-Whitney  valence (pos vs neg, per-subject)    delay_a_med          106   6109.000     0.2720     0.9768   ns  pos > neg by 7 ms
+Mann-Whitney  valence (pos vs neg, event-level)    delay_a_ms          1586  286744.000     0.3703     0.9768   ns  pos μ=252 (n=1059) vs neg μ=246 (n=527); Δ=+6 ms
+Spearman      Agreeableness                        delay_b_med           35      0.153     0.3811     0.9768   ns  ρ=+0.153
+Spearman      Presence: images felt as space       delay_b_med           35     -0.151     0.3857     0.9768   ns  ρ=-0.151
+Spearman      Neuroticism                          delay_a_med           35     -0.139     0.4243     0.9768   ns  ρ=-0.139
+Spearman      Expressivity                         delay_a_med           35     -0.138     0.4292     0.9768   ns  ρ=-0.138
+Spearman      Presence: images felt as space       delay_a_med           35      0.133     0.4448     0.9768   ns  ρ=+0.133
+Spearman      Presence: being there                delay_b_med           35     -0.117     0.5017     0.9768   ns  ρ=-0.117
+Spearman      DASS stress                          delay_b_med           35     -0.116     0.5088     0.9768   ns  ρ=-0.116
+Spearman      Expressivity                         delay_b_med           35      0.107     0.5413     0.9768   ns  ρ=+0.107
+Spearman      Presence: captivated                 delay_a_med           35      0.102     0.5587     0.9768   ns  ρ=+0.102
+Spearman      Empathy                              delay_a_med           35     -0.102     0.5599     0.9768   ns  ρ=-0.102
+Spearman      DASS depression                      delay_b_med           35     -0.102     0.5607     0.9768   ns  ρ=-0.102
+Spearman      VR experience                        delay_a_med           35      0.096     0.5825     0.9768   ns  ρ=+0.096
+Spearman      DASS depression                      delay_a_med           35      0.095     0.5872     0.9768   ns  ρ=+0.095
+Spearman      Agreeableness                        delay_a_med           35     -0.071     0.6836     0.9768   ns  ρ=-0.071
+Spearman      DASS anxiety                         delay_b_med           35     -0.069     0.6925     0.9768   ns  ρ=-0.069
+Spearman      Openness                             delay_a_med           35     -0.066     0.7072     0.9768   ns  ρ=-0.066
+Spearman      Neuroticism                          delay_b_med           35     -0.057     0.7433     0.9768   ns  ρ=-0.057
+Spearman      DASS stress                          delay_a_med           35      0.055     0.7524     0.9768   ns  ρ=+0.055
+Spearman      Extraversion                         delay_a_med           35     -0.051     0.7717     0.9768   ns  ρ=-0.051
+Spearman      Openness                             delay_b_med           35     -0.050     0.7752     0.9768   ns  ρ=-0.050
+Mann-Whitney  gender (1.0 vs 2.0)                  delay_b_med           35    161.000     0.7784     0.9768   ns  1 > 2 by 44 ms
+Spearman      Conscientiousness                    delay_a_med           35     -0.048     0.7832     0.9768   ns  ρ=-0.048
+Mann-Whitney  valence (pos vs neg, per-subject)    delay_c_med          108   5953.000     0.7930     0.9768   ns  pos > neg by 44 ms
+Spearman      Presence: being there                delay_a_med           35      0.046     0.7951     0.9768   ns  ρ=+0.046
+Spearman      Alexithymia                          delay_a_med           35      0.027     0.8795     0.9768   ns  ρ=+0.027
+Mann-Whitney  valence (pos vs neg, event-level)    delay_c_ms          2107  498822.000     0.8880     0.9768   ns  pos μ=2038 (n=1394) vs neg μ=1990 (n=713); Δ=+48 ms
+Spearman      Age (years)                          delay_a_med           35     -0.024     0.8915     0.9768   ns  ρ=-0.024
+Spearman      Age (years)                          delay_b_med           35     -0.021     0.9049     0.9768   ns  ρ=-0.021
+Spearman      Extraversion                         delay_b_med           35      0.017     0.9220     0.9768   ns  ρ=+0.017
+Spearman      Memory score (event recall)          delay_a_med           35      0.012     0.9467     0.9768   ns  ρ=+0.012
+Spearman      Empathy                              delay_b_med           35     -0.008     0.9628     0.9768   ns  ρ=-0.008
+Spearman      Alexithymia                          delay_b_med           35      0.008     0.9630     0.9768   ns  ρ=+0.008
+Spearman      DASS anxiety                         delay_a_med           35      0.005     0.9768     0.9768   ns  ρ=+0.005
